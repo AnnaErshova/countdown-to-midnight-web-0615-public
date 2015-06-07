@@ -11,7 +11,8 @@ def countdown(time)
     puts "#{time} SECOND(S)!"
     time -= 1
   end
-  return "0 left. HAPPY NEW YEAR!" # appears that in this case, puts or return are interchangeable
+  return "HAPPY NEW YEAR!" # removed 0 left after merging with pull request from instructors
+  # appears that in this case, puts or return are interchangeable
 end
 
 # the idea above is simple. Don't need proper counter because we will start with time, which will
